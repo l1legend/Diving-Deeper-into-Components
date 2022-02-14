@@ -1,6 +1,7 @@
 <template>
   <div>
     <the-header></the-header>
+    <!-- <TheHeader /> -->
     <badge-list></badge-list>
     <user-info
       :full-name="activeUser.name"
@@ -19,7 +20,7 @@ export default {
   components: {
     TheHeader,
     BadgeList,
-    UserInfo,
+    UserInfo
   },
   data() {
     return {
